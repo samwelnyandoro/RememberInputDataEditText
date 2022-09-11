@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RememberEditText">
+        <!-- auto fill in cache, by default true -->
+        <attr name="autoFill" format="boolean" />
+        <!-- auto save to cache, by default true -->
+        <attr name="autoSave" format="boolean" />
+        <!-- drop down icon to choose between cache values, by default use ic_drop_down -->
+        <attr name="dropDownIcon" format="reference" />
+        <!-- drop up icon to choose between cache values, by default use ic_drop_up -->
+        <attr name="dropUpIcon" format="reference" />
+        <!-- delete icon to delete cache value, by default use ic_delete -->
+        <attr name="deleteIcon" format="reference" />
+        <!-- id of cache, will use view id if not set -->
+        <attr name="rememberId" format="string" />
+        <!-- count of cache to keep, by default 3 -->
+        <attr name="rememberCount" format="integer" />
+    </declare-styleable>
+</resources>
